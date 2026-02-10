@@ -1,0 +1,37 @@
+{
+  "name": "energy-ingestion-engine",
+  "version": "1.0.0",
+  "description": "High-scale energy ingestion engine (NestJS + PostgreSQL) with hot/cold storage and 24h analytics.",
+  "private": true,
+  "scripts": {
+    "start": "node dist/main.js",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "lint": "eslint .",
+    "format": "prettier -w ."
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.8",
+    "@nestjs/config": "^3.2.3",
+    "@nestjs/core": "^10.4.8",
+    "@nestjs/platform-express": "^10.4.8",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.3",
+    "pg": "^8.11.5",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.2",
+    "@nestjs/schematics": "^10.1.3",
+    "@types/node": "^22.10.2",
+    "@types/pg": "^8.11.10",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
